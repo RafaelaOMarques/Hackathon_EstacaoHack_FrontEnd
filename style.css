@@ -1,0 +1,93 @@
+/* Estilos:
+Color:#BAA898; #FAA6FF; #87255B; #2F195F
+Color-Fonte: #1F271B; white
+FontType: "Raleway", sans-serif
+
+; 
+*/
+
+body,h1,h2 {
+  font-family: "Raleway", sans-serif;
+}
+
+.bg-invite,.dropdown-menu {
+  background-color: #87255B
+}
+
+.menu {
+  font-size: 1.5em;
+  color: white;
+}
+
+/* seletor Classe . */
+.active{
+  background-color: #BAA898;
+  border-radius: 5px;
+}
+
+.nav-link{
+  color: white !important;
+}
+
+/* seletor agrupado , */
+.nav-link:hover:not(.active), .dropdown-item:hover{
+  background-color: #2F195F;
+  border-radius: 5px;
+  color: white !important;
+}
+
+/* Criando classe de imagem de fundo */
+.bg-imagem {
+  height: 48vw; /* vh */
+  background-image: url(https://images.unsplash.com/photo-1485700281629-290c5a704409?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHdlZGRpbmclMjBpbnZpdGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-imagem p{
+  text-shadow: 4px 4px 8px #87255B;
+  font-size: 4vw;
+}
+
+/* Seletor ID # */
+#agenda th{
+  font-size: 2vw;
+}
+
+#agenda td{
+  /*   100% da tela dividido por 7 Colunas - dias da semana*/
+  width: calc(100% / 7);
+  /*   100% da tela dividido por 5 linhas - semanas */
+  height: calc(100% / 5);
+}
+
+#Alane&Breno{
+  font-family: "Raleway", sans-serif;
+  height: 100%;
+  line-height: 2;
+}
+
+section img {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.menu-historia{
+  font-size: 1.5em;
+  color: #87255B;
+}
+
+.w3-row h2{
+  color: #87255B;
+  font-size: 20px;
+}
+  
+.w3-row p{
+  color: #2F195F;
+  font-size: 20px;
+}
+
+.emconstrucao{
+  color: black;
+}
