@@ -91,3 +91,24 @@ section img {
 .emconstrucao{
   color: black;
 }
+
+input{
+  width: 15%;
+  border-color: #87255B;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 30%;
+  text-align: center;
+}
+
+button {
+  width: 15%;
+  opacity: 75%;
+  color: white;
+  background-color: #2F195F;
+  border-style: dotted;
+  border-color: #BAA898;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 10px;
+}
